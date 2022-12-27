@@ -1,0 +1,14 @@
+{
+  "name": "3_digikala",
+  "version": "1.0.0",
+  "description": "digikala homework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "digikala"
+  ],
+  "author": "Mehran Rahimzadeh",
+  "license": "ISC"
+}
