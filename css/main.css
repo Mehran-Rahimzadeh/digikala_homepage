@@ -1,57 +1,7 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+@import url(setting.css);
+@import url(header.css);
 
-/* 
-   font...
-   ttf eot woff woff2
-   */
-html{
-    direction: rtl;
-}
-@font-face {
-    font-family:IranYekan;
-    src: url('../font/fa/iranyekanwebbold.cfb6e26c.woff2');
-    src: url('../font/fa/iranyekanwebextrabold.9346e9a2.woff');
-    src: url('../font/fa/iranyekanwebmedium.2d4f96e5.woff');
-    src: url('../font/fa/iranyekanwebextrabold.9346e9a2.woff');
-}
+/* --------------------header & search bar ----------*/
 
-p.text{
-    font-family:IranYekan;
-    font-size: 14px;
-    margin: 0 auto;
-}
-img.top{
-    width:100%;
-    height:auto;
-    margin-top: -5px;
-}
-div.logo{
-   line-height:30px;
-    width: 115px;
-    height: 30px;
-    margin-right: 10rem;
-    margin-left: 15px;
-    display: inline-block;
-    box-sizing: border-box;
- }
-  
- div.search{
-    border: solid 0px grey;
-    width: 600px;
-    height: 44px;
-    border-radius: 5px;
-    box-sizing: border-box;
-    display: inline-block;
-    background-color: #f1f2f4;
-    margin-right: 20px;
-    vertical-align: top;
-}
-
- div.parent{
-    margin-top: 20px;
-    
-   
- }
+ /* --------------------End of  (header & search bar) ----------*/
+ /* --------------------Start od of  ( ) ----------*/

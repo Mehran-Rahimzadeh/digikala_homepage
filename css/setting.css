@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+   font...
+   ttf eot woff woff2
+   */
+html{
+    direction: rtl;
+}
+@font-face {
+    font-family:IranYekan;
+    src: url('../font/fa/iranyekanwebbold.cfb6e26c.woff2');
+    src: url('../font/fa/iranyekanwebextrabold.9346e9a2.woff');
+    src: url('../font/fa/iranyekanwebmedium.2d4f96e5.woff');
+    src: url('../font/fa/iranyekanwebextrabold.9346e9a2.woff');
+}
+
+p.text{
+    font-family:IranYekan;
+    font-size: 14px;
+    margin: 0 auto;
+}

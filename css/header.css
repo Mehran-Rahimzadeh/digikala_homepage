@@ -1,0 +1,42 @@
+
+img.top{
+    width:100%;
+    height:auto;
+    margin-top: -5px;
+}
+div.logo{
+   line-height:30px;
+    width: 115px;
+    height: 30px;
+    margin-right: 10rem;
+    margin-left: 15px;
+    display: inline-block;
+    box-sizing: border-box;
+ }
+  
+ div.search{
+    border: solid 0px grey;
+    width: 600px;
+    height: 40px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: #f1f2f4;
+    margin-right: 20px;
+    vertical-align: top;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+ div.parent{
+    margin-top: 20px;
+    margin-right: 60px;
+ }
+
+ div.search>p{
+    color: gray;
+    margin: 10px auto;
+    padding-right: 10px;
+ }
