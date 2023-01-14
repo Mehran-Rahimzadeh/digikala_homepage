@@ -10,5 +10,8 @@
     "digikala"
   ],
   "author": "Mehran Rahimzadeh",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "swiper": "^8.4.5"
+  }
 }

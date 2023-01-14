@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DigiKala</title>
     <link rel="stylesheet" href="./css/main.css" type="text/css">
+    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css">
 </head>
 <body>
+    <div class="wrapper">
 
     <!--------------------Start of (header & search bar) ---------->
     <img class="top" src="./media/8a51ac37d070f7785a2458c6a60540dd8644241f_1673267961.jpg" alt="">
@@ -15,11 +17,67 @@
     <div class="parent">
   
         <a  class="logo" href="index.html" ><img src="./media/logo.svg" alt="دیجی کالا"></a>
-<div class="search"><p>جستجو</p></div>
+<div class="search"><p class="text">جستجو</p></div>
 </div>
 <!--------------------End of (header & search bar) ----------------->
+<div class="menu">
+    <nav>
+        <ul>
+            <li><a href="#">دسته بندی کالاها</a></li>
+            <li><a href="#">سوپرمارکت</a></li>
+            <li><a href="#">پرفروش‌ترین‌ها</a></li>
+            <li><a href="#">تخفیف‌ها و پیشنهادها</a></li>
+            <li><a href="#">شگفت‌انگیزها</a></li>
+            <li><a href="#">سوالی دارید؟</a></li>
+            <li><a href="#">در دیجی‌کالا بفروشید!</a></li>
+        </ul>
+    </nav>
+</div>
+
+<!--------------------End of (Menu) ------------->
+<!--------------------Start of (Slider)---------->
+<div class="slider">
+     <!-- Swiper -->
+     <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">Slide</div>
+          <div class="swiper-slide">Slide</div>
+          <div class="swiper-slide">Slide 3</div>
+          <div class="swiper-slide">Slide 4</div>
+          <div class="swiper-slide">Slide 5</div>
+          <div class="swiper-slide">Slide 6</div>
+          <div class="swiper-slide">Slide 7</div>
+          <div class="swiper-slide">Slide 8</div>
+          <div class="swiper-slide">Slide 9</div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+</div>
+<!--------------------End of (Slider)---------->
 
  
-
+</div>
+ <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
+ <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 0,
+      centeredSlides: true,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
 </body>
 </html>

@@ -1,0 +1,38 @@
+dive.menu{
+    width: 100%;
+    height: 400px;
+    background-color: aliceblue;
+}
+
+div.menu>nav{
+    width: inherit;
+    height: inherit;
+    background-color: aliceblue;
+}
+
+div.menu>nav>ul{
+    list-style-image: url(   );
+
+}
+div.menu>nav>ul>li>a{
+font-family: Iranyekan,sans-serif;
+font-weight: 400;
+font-size: 12px;
+color:RGB(90, 92, 122);
+text-decoration: none solid rgb(90, 92, 122);
+vertical-align: baseline;
+
+}
+
+div.menu>nav>ul>li{
+    display: inline-block;
+    margin:30px 20px auto;
+}
+
+div.menu>nav>ul{
+    margin-right: 200px;
+}
+
+div.menu>nav>ul>li:hover{
+    text-decoration: underline;
+}
