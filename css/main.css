@@ -2,7 +2,13 @@
 @import url(header.css);
 @import url(menu.css);
 @import url(slider.css);
+@import url(services.css);
+@import url(fresh.css);
 
+i{
+    color: black;
+    background-color: grey;
+}
 
 /* --------------------header & search bar ----------*/
 
