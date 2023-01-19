@@ -7,7 +7,7 @@ div.fresh{
 }
 
 div.fresh>div.childfresh{
-    width: 95%;
+    width: 80%;
     background-color: rgb(237, 235, 235);
     margin:  0 auto;
     padding: 10px 20px;
@@ -17,6 +17,8 @@ div.fresh>div.childfresh{
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    background-image: url(/media/images/fresh/freshPattern.svg);
+    background-repeat: no-repeat;
 } 
 
 div.fresh>div.childfresh>div.right{
@@ -24,6 +26,7 @@ div.fresh>div.childfresh>div.right{
     width: auto;
     padding: 10px 20px;
     box-sizing: border-box;
+    margin-right: 20px;
     
     vertical-align: middle;
 }
@@ -86,7 +89,8 @@ div.fresh>div.childfresh>div.left{
     
     box-sizing: border-box;
     vertical-align: middle; 
-    margin-right:  120px ;
+    margin-right:  130px ;
+    
 }
 div.fresh>div.childfresh>div.left>img{
     width: 70px;
@@ -109,11 +113,12 @@ div.fresh>div.childfresh>div.left>a{
     font-family: IranYekan;
     font-size: 13px;
     line-height: 40px;
-    color: black;
+    color: green;
     text-decoration: none;
     border-radius: 15px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
+    
 }
