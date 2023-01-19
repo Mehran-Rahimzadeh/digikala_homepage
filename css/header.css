@@ -12,6 +12,7 @@ div.logo{
     margin-left: 15px;
     display: inline-block;
     box-sizing: border-box;
+    vertical-align: middle;
  }
   
  div.search{
@@ -39,4 +40,5 @@ div.logo{
     color: gray;
     margin: 10px auto;
     padding-right: 10px;
+    vertical-align: middle;
  }
