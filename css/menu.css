@@ -1,38 +1,138 @@
 dive.menu{
     width: 100%;
-    height: 400px;
+    height: 40px;
     background-color: aliceblue;
+    
+   
 }
 
 div.menu>nav{
     width: inherit;
     height: inherit;
     background-color: aliceblue;
+    margin: 30px 20px 10px auto;
+    
 }
 
 div.menu>nav>ul{
-    list-style-image: url(   );
-
+    width: 100%;
+    height: inherit;
+    list-style: none;
+    padding-right: 20px;
+    box-sizing: border-box;
 }
-div.menu>nav>ul>li>a{
-font-family: Iranyekan,sans-serif;
-font-weight: 400;
-font-size: 12px;
-color:RGB(90, 92, 122);
-text-decoration: none solid rgb(90, 92, 122);
-vertical-align: baseline;
 
-}
 
 div.menu>nav>ul>li{
     display: inline-block;
-    margin:30px 20px auto;
+    width: auto;
+    vertical-align: top;
+    height: inherit;
 }
 
-div.menu>nav>ul{
-    margin-right: 200px;
+
+div.menu>nav>ul>li>a{
+        font-family: IranYekan, sans-serif;
+        width: inherit;
+        height: inherit;
+        display: block;
+        padding:  0 20px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 40px;
+        color:RGB(90, 92, 122);
+        text-decoration: none;
+        transform: 300ms;
+        -webkit-transform: 300ms;
+        -moz-transform: 300ms;
+        -ms-transform: 300ms;
+        -o-transform: 300ms;
+        text-transform: capitalize;
+        
+}
+div.menu>nav>ul>li:first{
+    font-weight: bold;
+    
 }
 
-div.menu>nav>ul>li:hover{
-    text-decoration: underline;
+div.menu>nav>ul>li>div.submenu{
+width: calc(100% - 40px);
+height: 500px;
+background-color: gray;
+position: absolute;
+box-shadow: 5px 5px 5px black;
+display: none;
+z-index: 2;
+
+
+}
+
+div.menu>nav>ul>li:hover>div.submenu{
+    display: block;
+    
+}
+
+div.menu>nav>ul>li>div.submenu>ul{
+    list-style: none;
+    width: 10%;
+    height: inherit;
+    background-color: whitesmoke;
+}
+   
+
+div.menu>nav>ul>li>div.submenu>ul>li{
+    width: 100%;
+    height: 40px;
+    
+}
+
+div.menu>nav>ul>li>div.submenu>ul>li>a{
+    display: block;
+    width: inherit;
+    height: inherit;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    background-color: whitesmoke;
+    transition:400ms;
+    transition: 200ms;
+    -moz-transition:400ms;
+    -ms-transition:400ms;
+    -o-transition:400ms;
+    -webkit-transition:400ms;
+   
+    
+}
+
+div.menu>nav>ul>li:hover>div.submenu>ul>li>a:hover{
+    background-color: lightgrey;
+    transition: 400ms;
+    -webkit-transition: 400ms;
+    -moz-transition: 400ms;
+    -ms-transition: 400ms;
+    -o-transition: 400ms;
+}
+
+div.menu>nav>ul>li>div.submenu>ul>li>div{
+    width: 90%;
+    height: 500px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+
+}
+
+div.menu>nav>ul>li>div.submenu>ul>li>div>div{
+    display: inline-block;
+    width: 18%;
+    height: inherit;
+    text-align: center; 
+    vertical-align: top;
+
+}
+
+div.menu>nav>ul>li>div.submenu>ul>li:hover>div{
+    display: block;
+
 }
