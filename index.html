@@ -7,49 +7,81 @@
     <title>DigiKala</title>
     <link rel="stylesheet" href="./css/main.css" type="text/css">
     <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css">
-    <link rel="stylesheet" href="./icon/svgs/">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./icon/svgs/solid/">
+    <link rel="stylesheet" href="fonts/FontAwesome.Pro.5.14.8.web/css/all.min.css">
 </head>
 <body>
 
 
    <!--------------------Start of (header & search bar) ---------->
     <div class="wrapper">
-
-  
     <img class="top" src="./media/8a51ac37d070f7785a2458c6a60540dd8644241f_1673267961.jpg" alt="">
+    </div>
 
-    <div class="parent">
-  
+
+    <div class="header">
+      <div class="header-right">
         <a  class="logo" href="index.html" ><img src="./media/logo.svg" alt="دیجی کالا"></a>
-<div class="search"><p class="text">جستجو</p></div>
-</div>
-</div>
+
+        <div ><input class="search" type="text" class="searchbox" placeholder="جستجو"></div>
+      </div>
+
+     <div class="header-left">
+      
+      <div class="user">
+      <a href=""> <img src="./icon/costum/user.png"></a>
+      <a href=""> <img src="./icon/costum/shopping-cart-296.png"></a>
+    </div>
+      
+     </div>
+    </div>
+
+
+
+
 <!--------------------End of (header & search bar) ----------------->
 
 
-<!--------------------End of (Menu) ------------->
+
+
+
+<!--------------------Start of (Menu) ------------->
 <div class="menu"> 
+
+
     <nav>
         <ul>
             <li><a href="#">دسته بندی کالاها</a>
               <div class="submenu">
                 <ul>
-                  <li><a href="">موبایل</a>
-                    <div>
-                      <div></div>
-                      <div></div>
-                      <div></div>
-                      <div></div>
-                      <div></div>
+                  <li><a href="">موبایل</a> 
+                    <div class="m1">
+                      <div><a href="">برندهای مختلف گوشی موبایل</a>
+                        <div>dgdfgd</div>
+                        <div>dgdfgd</div>
+                        <div>dgdfgd</div>
+                        <div>dgdfgd</div>
+                        
+                        
+                
+                      </div>
+                      
+                           <div><a href="">گوشی براساس قیمت</a></div>
+                           <div><a href="">گوشی براساس حافظه داخلی</a></div>
+                           <div><a href="">رزولوشن عکس</a></div>
+                           <div><a href="">گوشی براساس کاربری</a></div>
+                      
                     </div>
+
                   </li>
                   <li><a href="">کالای دیجیتال</a>
                     <div>
-                      <div></div>
-                      <div></div>
-                      <div></div>
-                      <div></div>
-                      <div></div>
+                      <div><a href="">کالای دیجیتال</a></div>
+                      <div><a href="">کالای دیجیتال</a></div>
+                      <div><a href="">کالای دیجیتال</a></div>
+                      <div><a href="">کالای دیجیتال</a></div>
+                      <div><a href="">کالای دیجیتال</a></div>
                     </div>
                   </li>
                   <li><a href="">خودرو، ابزار و تجهیزات صنعتی</a>
@@ -146,10 +178,51 @@
             <li><a href="#">در دیجی‌کالا بفروشید!</a></li>
         </ul>
     </nav>
-
-
+</div>
 <!--------------------End of (Menu) ------------->
-<!--------------------Start of (Slider)---------->
+
+
+
+<!--------------------Start of (MegaMenu) ------------->
+
+
+<nav>
+  <div class="container">
+    <ul class="flex"> 
+      <li class="menu-1">
+        <ul class="flex">
+          <li> <div>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>دسته‌بندی کالاها
+           
+          </li>
+          <li><a href="">سوپرمارکت</a></li>
+          <li><a href="">پرفروش‌ترین‌ها</a></li>
+          <li><a href="">تخفیف‌ها وپیشنهادها</a></li>
+          <li><a href="">شگفت‌انگیزها</a></li>
+          <li><a href="">سوالی دارید؟</a></li>
+          <li><a href="">در دیجی‌کالا بفروشید!</a></li>
+         
+        </ul>
+      </li>
+      <li class="send">
+        
+          <a href=""> <img src="./icon/costum/loc.webp "></a>
+        <span>ارسال‌ به‌ تهران</span>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!--------------------End of (MegaMenu) ------------->
+
+
+ 
+
+
+
+<!--------------------Start of (Slider-1)---------->
 <div class="slider">
      <!-- Swiper -->
      <div class="swiper mySwiper">
@@ -175,10 +248,33 @@
         <div class="swiper-button-prev"></div>
         <div class="swiper-pagination"></div>
       </div>
+    
+    
 
-     </div>
-     </div>
-<!--------------------End of (Slider)---------->
+     <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
+ <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 0,
+      centeredSlides: true,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+    
+  </script>
+   </div>
+<!--------------------End of (Slider-1)---------->
+
+
 
 
 
@@ -222,6 +318,53 @@
 </div>
 </div>
 <!--------------------End of (services)---------->
+
+   
+
+
+<!--------------------Start of (Slider-2)---------->
+  <!-- Swiper-2 -->
+  <div class="slider-2">
+  <div class="swiper mehri">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="./media/images/slider-2/Amazings.svg" alt="">
+        <img src="./media/images/slider-2/box.png" alt="">
+      </div>
+      <div class="swiper-slide"><img src="./media/images/slider-2/t shert.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./media/images/slider-2/sunglasses.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./media/images/slider-2/spoon.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./media/images/slider-2/shoes.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./media/images/slider-2/iron.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./media/images/slider-2/ghablame.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./media/images/slider-2/gass.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./media/images/slider-2/charger.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./media/images/slider-2/box.png" alt=""></div>
+      <div class="swiper-slide"><img src="./media/images/slider-2/biskutt.jpg" alt=""></div>
+      
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script>
+    var mehri = new Swiper(".mehri", {
+      slidesPerView: 4,
+      centeredSlides: true,
+      spaceBetween: 30,
+      freeMode: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+
+
+<!--------------------End of (Slider-2)---------->
 
 
 
@@ -340,25 +483,7 @@
 
 
 
- <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
- <script>
-    var swiper = new Swiper(".mySwiper", {
-      spaceBetween: 0,
-      centeredSlides: true,
-      autoplay: {
-        delay: 3000,
-        disableOnInteraction: false,
-      },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
-  </script>
+ 
 
 
 </body>

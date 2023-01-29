@@ -32,7 +32,7 @@ div.menu>nav>ul>li{
 
 
 div.menu>nav>ul>li>a{
-        font-family: IranYekan, sans-serif;
+        font-family: IranYekan;
         width: inherit;
         height: inherit;
         display: block;
@@ -50,6 +50,7 @@ div.menu>nav>ul>li>a{
         text-transform: capitalize;
         
 }
+
 div.menu>nav>ul>li:first{
     font-weight: bold;
     
@@ -58,7 +59,7 @@ div.menu>nav>ul>li:first{
 div.menu>nav>ul>li>div.submenu{
 width: calc(100% - 40px);
 height: 500px;
-background-color: gray;
+background-color: whitesmoke;
 position: absolute;
 box-shadow: 5px 5px 5px black;
 display: none;
@@ -100,6 +101,9 @@ div.menu>nav>ul>li>div.submenu>ul>li>a{
     -ms-transition:400ms;
     -o-transition:400ms;
     -webkit-transition:400ms;
+    color: black;
+    font-size: 16px;
+    text-align: right;
    
     
 }
@@ -129,10 +133,43 @@ div.menu>nav>ul>li>div.submenu>ul>li>div>div{
     height: inherit;
     text-align: center; 
     vertical-align: top;
+    text-decoration: none;
+    color: black;
 
 }
 
 div.menu>nav>ul>li>div.submenu>ul>li:hover>div{
     display: block;
+
+}
+
+div.menu>nav>ul>li>div.submenu>ul>li>div>div>a{
+    display: inline-block;
+    height: inherit;
+    text-align: center; 
+    vertical-align: top;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: IranYekan;
+
+}
+div.menu>nav>ul>li>div.submenu>ul>li>div>div>p{
+    display: block;
+
+
+}
+
+div.menu>nav>ul>li>div.submenu>ul>li>div>div>div{
+    display: inline-block;
+    height: inherit;
+    text-align: center; 
+    vertical-align: top;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: IranYekan;
 
 }

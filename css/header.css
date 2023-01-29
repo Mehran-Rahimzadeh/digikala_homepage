@@ -12,10 +12,10 @@ div.logo{
     margin-left: 15px;
     display: inline-block;
     box-sizing: border-box;
-    vertical-align: middle;
+    vertical-align: top;
  }
   
- div.search{
+ input.search{
     border: solid 0px grey;
     width: 600px;
     height: 40px;
@@ -31,14 +31,89 @@ div.logo{
     -o-border-radius: 8px;
 }
 
- div.parent{
+div.header{
+   width: 100%;
+   height: auto;
+   margin: 0px auto;
+   box-sizing: border-box;
+   display:flex;
+   min-width: 1089px;
+  max-width: 1676px;
+  padding: 10px 20px;
+   
+}
+
+ div.header-right{
+   box-sizing: border-box;
+   width: 800px;
     margin-top: 20px;
     margin-right: 60px;
+    display: flex;
+    
  }
 
- div.search>p{
-    color: gray;
-    margin: 10px auto;
-    padding-right: 10px;
-    vertical-align: middle;
+ 
+
+ div.header-left{
+   box-sizing: border-box;
+   width: 300px;
+   display: flex;
+   align-items:flex-start;
+   margin:auto;
+   flex-direction: row;
+   height: 60px;
+   flex-direction: column;
+   align-items:flex-end;
+   flex-direction: column;
+   justify-content: center;
+   position: absolute;
+   left: 50px;
+
+ }
+
+ div.header-left>div.user{
+   display: flex;
+   
+  
+ }
+ div.header-left>div.user>a{
+display: flex;
+width: 120px;
+height: 20px;
+border-right: solid 1px lightgray;
+padding-right: 20px;
+align-self: start;
+margin-left: -70px;
+
+ }
+
+ 
+
+    div.header-left>div.location>a>p{
+      font-family: IranYekan;
+      font-size: 14px;
+      display: flex;
+    }
+ div.header-left>div.user>a:first-of-type{
+   border-right: unset;
+ }
+
+
+
+ div.header-left>a>img{
+   color:gray;
+   width: 25px;
+   display: flex;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+
+ }
+ div.header>img{
+   display: inline-block;
+ }
+ 
+ .searchbox{
+   
  }
