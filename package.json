@@ -4,7 +4,8 @@
   "description": "digikala homework",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "node-sass -w scss/main.scss -o css/ -r",
+    "scssMinify":""
   },
   "keywords": [
     "digikala"
@@ -12,6 +13,7 @@
   "author": "Mehran Rahimzadeh",
   "license": "ISC",
   "dependencies": {
+    "node-sass": "^8.0.0",
     "swiper": "^8.4.5"
   }
 }
