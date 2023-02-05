@@ -1,9 +1,9 @@
-dive.menu{
+
+div.menu{
     width: 100%;
     height: 40px;
     background-color: aliceblue;
-    
-   
+    display: none;
 }
 
 div.menu>nav{
@@ -11,7 +11,7 @@ div.menu>nav{
     height: inherit;
     background-color: aliceblue;
     margin: 30px 20px 10px auto;
-    
+    display: none;
 }
 
 div.menu>nav>ul{
